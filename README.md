@@ -54,5 +54,3 @@ Inside `portscanergui.py`, you can adjust:
   - `timeout = 0.5`
   - `max_threads = 500`
 
-## License
-Add a license file (e.g., MIT) if you want to specify how others may use this code.
