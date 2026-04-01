@@ -53,4 +53,11 @@ Inside `portscanergui.py`, you can adjust:
 - Internal defaults used by the scanner:
   - `timeout = 0.5`
   - `max_threads = 500`
+ 
+## Output
+
+<img width="1124" height="751" alt="Screenshot 2026-03-31 185856" src="https://github.com/user-attachments/assets/024ba970-c215-4c57-9a9e-0778e6f7dfdf" />
+
+<img width="893" height="683" alt="Screenshot 2026-03-31 185953" src="https://github.com/user-attachments/assets/953e413a-c7e4-44a6-b7b3-fd098cfabd56" />
+
 
