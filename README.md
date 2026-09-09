@@ -44,7 +44,7 @@ python3 portscanergui.py
 5. Optional: click **Save Results** to export open ports to a `.txt` file
 
 ## Notes / Safety
-- Scan only hosts you own or have explicit permission to test.
+- Scan only hosts you own or have explicit permission to test 
 - The scanner uses TCP connect scanning (`socket.connect_ex`) and a per-connection timeout (internal default: `0.5s`).
 
 ## Customization
