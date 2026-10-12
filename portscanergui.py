@@ -6,18 +6,14 @@ import sys
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 
-# ---------------------------
-# Service Map (extend freely)
-# ---------------------------
+
 COMMON_PORTS = {
     21: 'FTP', 22: 'SSH', 23: 'Telnet', 25: 'SMTP', 53: 'DNS',
     80: 'HTTP', 110: 'POP3', 143: 'IMAP', 443: 'HTTPS',
     3306: 'MySQL', 3389: 'RDP', 5900: 'VNC', 8080: 'HTTP-Alt'
 }
 
-# ---------------------------
-# Scanner Worker
-# ---------------------------
+
 class PortScanner:
     def __init__(self, target, start_port, end_port, timeout=0.5, max_workers=500):
         self.target = target
